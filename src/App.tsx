@@ -1,10 +1,11 @@
 import "./App.css";
-import { FromAndOf } from "./concepts";
+import { FromAndOf, Json2Observables } from "./concepts";
 
 function App() {
   return (
     <>
       <FromAndOf />
+      <Json2Observables />
     </>
   );
 }
